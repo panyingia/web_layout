@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Noto Sans JP";
+    box-sizing: border-box;
+}
+/* 協同合作LOGO */
+.co-wrap{
+    width: 100%;
+}
+.co-container{
+    width: 100%;
+    height: 250px;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0 0;
+}
+.co-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.coLogo-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.coLogo-wrapper img{
+    width: 120px;
+    height: 60px;   
+}
+/* 免費試用freeTest */
+.freeTest{
+    width: 100%;
+    height: 300px;
+    background: #fffbfb;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.freeTest h1{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.freeTest small{
+    font-size: 16px;
+    color: #999;
+}
+.freeTest a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background: #3c76e0;
+    width: 150px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+/* footer */
